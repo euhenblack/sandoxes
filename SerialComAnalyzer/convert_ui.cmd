@@ -1,0 +1,1 @@
+FOR /R %%G IN (*.ui) DO pyuic6 %%G -o ui\Ui_%%~nG.py
